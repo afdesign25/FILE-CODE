@@ -1,0 +1,10 @@
+<iframe style="display: none;" src="https://afdesign.my.id/wp-content/uploads/2020/11/okay.mp3"></iframe>
+
+<audio id="myaudio" autoplay="autoplay" loop="loop" controls="controls">
+<source src="https://afdesign.my.id/wp-content/uploads/2020/11/okay.mp3" type="audio/mp3" />
+</audio>
+
+<script>
+  var audio = document.getElementById("myaudio");
+  audio.volume = 0.2;
+</script>
