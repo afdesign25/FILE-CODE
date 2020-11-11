@@ -1,0 +1,11 @@
+Pada panduan ini, ada 4 paket hosting dengan ID yang berbeda-beda. ID ini bisa digunakan untuk membuat URL sesuai dengan produk yang dipilih dengan pelanggan. Kita bisa tambahkan variable ?id=ID, contoh: ?id=19970. Sehinga dari ID tersebut setiap paket akan memiliki URL masing-masing:
+
+Hosting Business: https://testlagigan.com/order/?id=19970
+Hosting Basic: https://testlagigan.com/order/?id=20117
+Hosting Standard: https://testlagigan.com/order/?id=21645
+Hosting Premium: https://testlagigan.com/order/?id=21646
+Adapun apabila ingin menambahkan pilihan durasi order, Anda bisa menambahkan variable ?id=ID&period=XY. Misalnya untuk order hosting starter dengan durasi 3 tahun, maka URL akan menjadi: https://testlagigan.com/order/?id=19970&period=3Y
+
+
+
+URL ini bisa dijadikan button sesuai dengan pilihan paket hosting Anda
