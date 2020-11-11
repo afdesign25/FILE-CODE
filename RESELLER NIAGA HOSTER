@@ -9,3 +9,10 @@ Adapun apabila ingin menambahkan pilihan durasi order, Anda bisa menambahkan var
 
 
 URL ini bisa dijadikan button sesuai dengan pilihan paket hosting Anda
+
+Adapun setiap produk memiliki URL dengan parameternya masing-masing.
+
+Produk Hosting menggunakan URL: /order (misal: https://testlagigan.com/order)
+Produk Domain menggunakan URL: /order?type =domain (misal: https://testlagigan.com/order?type=domain)
+Produk Email Hosting menggunakan URL:  /order?type:mail-hosting (misal: https://testlagigan.com/order?type=mail-hosting)
+Produk VPS menggunakan URL:  ?type=vpsme (misal: https://testlagigan.com/order?type=vpsme)
