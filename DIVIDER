@@ -1,0 +1,48 @@
+}
+@media only screen and (max-width:
+  768px){
+    body{ 
+      overflow-x:hidden;}
+    }
+
+.my_shape .elementor-shape-bottom{
+  bottom:-1px;
+  width: 200%;
+  animation: wave-movin 5s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite; 
+}
+
+@keyframes wave-movin {
+  0%{
+  margin-left:50;
+  }
+
+  50%{
+  margin-left:-100px;
+  }
+
+  
+  100%{
+  margin-left:0px;
+  }
+}
+
+.my_shape2 .elementor-shape-top{
+  bottom:-1px;
+  width: 200%;
+  animation: wave-movin 5s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite; 
+}
+
+@keyframes wave-movin {
+  0%{
+  margin-left:50;
+  }
+
+  50%{
+  margin-left:-100px;
+  }
+
+  
+  100%{
+  margin-left:0px;
+  }
+}
